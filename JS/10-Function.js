@@ -1,6 +1,6 @@
 // ** Function Lekhar Niyom =>  
 function  LastCheck () {
-  console.log("Hellow World");
+  console.log("Hello World");
 }
 LastCheck()
 

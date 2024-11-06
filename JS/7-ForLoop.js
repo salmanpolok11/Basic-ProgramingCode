@@ -22,3 +22,10 @@ for( i=0 ; i<10 ; i++){
       break
    }
 }
+
+// * For loop ar moddhe array declar
+var nums = [ 14 , 45, 76, 43, 65, 32, 98, 56, 34, 78, 56, 108]
+for( var i = 0 ; i < nums.length; i++){
+   var num = nums[i]
+   console.log(num);
+}
