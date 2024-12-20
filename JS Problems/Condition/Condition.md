@@ -1,5 +1,5 @@
 // Problem No - 1 => Write a JavaScript program that displays the largest integer among two integers.
-
+```javascript
 const num1 = 60;
 const num2 = 60;
 
@@ -11,12 +11,12 @@ if( num1 > num2){
    console.log("Duitai SOman");
    
 }
-
+```
 
 //  Problem No - 2 => Write a JavaScript conditional statement to find the sign of the product of three numbers. Display an alert box with the specified sign.
 Sample numbers : 3, -7, 2
 Output : The sign is 
-
+```javascript
 const num1 = 3;
 const num2 = -7;
 const num3 = 2;
@@ -35,10 +35,11 @@ if(product > 0){
                    
                 }
 }
-
+```
 
 
 // Problem No -3 =>  Check if a number is positive, negative, or zero
+```javascript
 const num = -3;
 if( num > 0){
    console.log("Positiove Number");
@@ -50,19 +51,23 @@ if( num > 0){
        console.log("Zero");      
      }
 }
+```
 
 
 
 // Problem  No - 4 => Check if a number is even or odd
+```javascript
 const num = 2;
 if( num % 2 === 0 ){
    console.log("Positive Number");
 } else{
       console.log("Nagative Number");
 }
+```
 
 
 // Problem No - 5 => Check if a person is an adult 
+```javascript
 const  age = 69 ;
 
 if( age < 18){
@@ -78,7 +83,7 @@ if( age < 18){
                         }
             }
 }
-
+```
 
 // Problem No - 6 =>  Determine the grade based on score
 // Take a score as input and determine the grade using conditions:
@@ -87,6 +92,7 @@ if( age < 18){
 // Score >= 40: "C"
 // Score < 40: "Fail"
 
+```javascript
 const score = 40;
 
 if( score >= 80){
@@ -108,3 +114,25 @@ if( score >= 80){
       }
   }
 }
+```
+
+
+ // Problem No - 7 => Find the largest of three numbers
+```javascript
+const num1 = 23;
+const num2 = 7;
+const num3 = 14;
+
+if( num1 > num2 && num1 > num3){
+   console.log("Lergest Number is num1 => " , num1);
+   
+} else {
+       if( num2 > num1 && num2 > num3){
+          console.log("Lergest Number is num2 =>" , num2);
+
+       } else {
+         console.log("Leargest Number is num3 => " , num3);
+         
+       }
+}
+```
