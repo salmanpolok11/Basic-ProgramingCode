@@ -136,3 +136,93 @@ if( num1 > num2 && num1 > num3){
        }
 }
 ```
+
+// Problem No - 8 =>  Check if a year is a leap year
+```javascript
+const year = 2028;
+if( year % 4 === 0){
+   console.log("Leap Year");
+} else{
+          console.log("Leaop Year Not");
+          
+}
+```
+
+
+
+
+// Problem No - 9 => Determine the day of the week
+Take a number as input and print the corresponding day of the week:
+1 = Sunday, 2 = Monday, ..., 7 = Saturday
+```javascript
+const weekDay = 2;
+
+if (weekDay === 1) {
+  console.log("Sunday");
+
+} else {
+  if (weekDay === 2) {
+    console.log("Monday");
+  } else {
+    if (weekDay === 3) {
+      console.log("Tuesday ");
+
+    } else {
+      if (weekDay === 4) {
+        console.log("Wednesday");
+      } else {
+        if (weekDay === 5) {
+          console.log("Thursday");
+        } else {
+          if (weekDay === 6) {
+            console.log("Friday");
+          } else {
+            if (weekDay === 7) {
+              console.log("Saturday");
+            } else {
+              console.log(" This is not a weekend day");
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+
+
+// Problem No - 10  Simple login system
+// Take a username and password as input and check if they match:
+// Username: "admin"
+// Password: "1234"
+```javascript
+const userName = "admin"
+const password = 1234;
+
+if( userName === "admin" && password === 1234){
+    console.log("Log in Succesful");
+    
+} else{
+   console.log("Please give right info");
+   
+}
+```
+
+
+
+//Problem No - 11  =>  Check if a character is a vowel or consonant
+// Take a character as input and check if it is a vowel (a, e, i, o, u) or a consonant.
+
+```javascript
+const character = 'i';
+
+if( character === 'a' || character === 'e' || character === 'i' || character === 'o' ||
+  character === ' u'){
+   console.log( character, "is a Vowel");
+} else{
+   console.log( character, "is a Consonant");
+   
+}
+```
